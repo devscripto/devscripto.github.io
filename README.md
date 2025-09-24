@@ -2,7 +2,7 @@
 
 ### Scripting the future of the web.
 
-<p style="text-align:center;"><a href="https://devscripto.github.io" target="_blank" rel="noopener"><img src="https://devscripto.github.io/devscripto/devscripto-banner.png" data-origin="devscripto-banner.png" alt="devscripto team" width="1024" height="320" style="max-width: 100%; height: auto; aspect-ratio: 1024/320"></a></p>
+<p style="text-align:center;"><a href="https://devscripto.github.io" target="_blank" rel="noopener"><img src="https://devscripto.github.io/devscripto-banner.png" data-origin="devscripto-banner.png" alt="devscripto team" width="1024" height="320" style="max-width: 100%; height: auto; aspect-ratio: 1024/320; aspect-ratio: 1; object-fit: contain;"></a></p>
 
 -----
 
@@ -52,7 +52,11 @@ We leverage a modern tech stack to build efficient and powerful web solutions.
 
 We are always looking for exciting new challenges and partners to collaborate with. If you need a dedicated and skilled development team to bring your project to life, we would love to connect.
 
-* **📧 Email Us:** [`devscripto@needlecode.com`](mailto:devscripto@needlecode.com)
-* **🌐 Visit Our Website:** [`devscripto.github.io`](https://devscripto.github.io)
+<p align="center">
+  <a href="https://devscripto.github.io" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://wa.me/8801847406830" title="WhatsApp"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
+  <a href="mailto:devscripto@needlecode.com?subject=Project%20Inquiry&body=Hello%20DevScript%2C%0D%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you." title="Email"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/devscripto" title="GitHub"><img src="https://img.shields.io/badge/GitHub-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
 
 Let's write the next chapter of your success, together.
