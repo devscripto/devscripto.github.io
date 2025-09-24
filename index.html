@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <title>devscripto team | Full-Stack Development & WordPress Experts</title>
+  <meta name="description" content="Expert Full-Stack Development and WordPress/WooCommerce solutions from Bangladesh. The devscripto team scripts the future of the web with clean, efficient code.">
+  <meta name="keywords" content="devscripto, full-stack development, wordpress expert, woocommerce, php, javascript, laravel, web development, custom plugins, bangladesh, web agency">
+  <link rel="canonical" href="https://devscripto.github.io/devscripto/">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://devscripto.github.io/devscripto/">
+  <meta property="og:title" content="devscripto team | Full-Stack Development & WordPress Experts">
+  <meta property="og:description" content="Expert Full-Stack Development and WordPress/WooCommerce solutions. The devscripto team scripts the future of the web with clean, efficient code.">
+  <meta property="og:image" content="https://devscripto.github.io/devscripto/devscripto-banner.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://devscripto.github.io/devscripto/">
+  <meta property="twitter:title" content="devscripto team | Full-Stack Development & WordPress Experts">
+  <meta property="twitter:description" content="Expert Full-Stack Development and WordPress/WooCommerce solutions. The devscripto team scripts the future of the web with clean, efficient code.">
+  <meta property="twitter:image" content="https://devscripto.github.io/devscripto/devscripto-banner.png">
+  
+  <!-- Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" title="dark">
+  
+  <!-- Custom Styles -->
+  <style>
+    /* Custom styles for cover page and footer */
+	.cover.show {
+      background: linear-gradient(45deg, #154f47, #75703d) !important;
+    }
+    .cover-main .cover-name span {
+      color: #42b983; /* Highlight color for team name */
+    }
+    .cover-main p a {
+      border: 1px solid #42b983;
+      border-radius: 4px;
+      padding: 0.6em 1.2em;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+    .cover-main p a:hover {
+      background: #42b983;
+      color: white !important;
+    }
+	.markdown-section h1,
+	.markdown-section h2,
+	.markdown-section h3{
+		text-align: center;
+	}
+	.markdown-section table thead,
+	.markdown-section table tbody{
+		width: 100%;
+	}
+    .app-footer {
+      padding: 20px 24px;
+      text-align: center;
+      color: #ccc;
+      font-size: 12px;
+      border-top: 1px solid rgba(128, 128, 128, 0.2);
+    }
+    .app-footer a {
+      color: #42b983;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <!-- Docsify Configuration -->
+  <script>
+    window.$docsify = {
+      name: 'devscripto team',
+      repo: 'https://github.com/devscripto/devscripto',
+      coverpage: true,
+      loadSidebar: false,
+      hideSidebar: true,
+      auto2top: true,
+      homepage: 'README.md',
+      notFoundPage: '_404.md',
+      plugins: [
+        function(hook) {
+          var footer = `
+            <hr/>
+            <footer class="app-footer">
+              <p>
+                Copyright &copy; 2017-${new Date().getFullYear()} <strong>devscripto team</strong>. All Rights Reserved.
+              </p>
+              <p>
+                <a href="https://github.com/devscripto/devscripto" target="_blank" rel="noopener">GitHub</a>
+                &nbsp;|&nbsp;
+                <span>Scripting the future of the web.</span>
+              </p>
+            </footer>
+          `;
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        }
+      ]
+    };
+  </script>
+
+  <!-- Docsify Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- Schema.org for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "devscripto team",
+    "url": "https://devscripto.github.io/devscripto/",
+    "logo": "https://devscripto.github.io/devscripto/devscripto-logo.png",
+    "sameAs": [
+      "https://github.com/devscripto/devscripto"
+    ],
+    "description": "Expert Full-Stack Development and WordPress/WooCommerce solutions from Bangladesh. The devscripto team scripts the future of the web with clean, efficient code.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "devscripto@needlecode.com",
+      "contactType": "customer service"
+    }
+  }
+  </script>
+</body>
+</html>
